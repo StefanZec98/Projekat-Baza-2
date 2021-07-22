@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5183295-B457-FAE2-86A1-AA8D4D41E26A" name="Kredit">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>6B2DBC84-ED5C-EEA6-0E06-691270356A9E</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oznkkred" id="C3729099-45C3-E112-F8EE-4F6D9C667286">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>E3FDA790-7549-EC6A-6FA3-98A2683F6C92</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datodk" id="252853F4-05E7-6344-0923-288487DDA152">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>AF1E416B-62CB-A96C-E2C6-449C631766D1</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazbanke" id="CD756BE3-616A-62BD-4F3F-6DFBB92AA5D7">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>2E199A18-EC1C-8989-C462-34000A080593</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58252B3E-9F7C-962B-17C3-FFE7FE013E4A" name="Kredit_PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>C0EA2C68-639F-85DA-3DFA-DD31F2223E69</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3729099-45C3-E112-F8EE-4F6D9C667286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF58AFA9-1E9A-28A2-0B35-82BD727BE376" name="Radnik">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:53:01 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbrrad" id="72F927D9-2C63-73B5-AB22-8689F6B3870F">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:53:11 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip radnika" id="9F419549-3EAB-D764-6210-E18DEF7C89C9">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:54:58 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0CF922F3-BF38-648F-3E2F-D84C5DD48D7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imerad" id="059572B2-0EEF-D158-CC35-27ED77B915D7">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:55:13 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezrad" id="1A8AA397-2EE0-63CC-DDA0-0D69F929D819">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:55:40 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sef" id="41A20C01-A661-AF19-587F-2397B7E771D3">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 01:00:24 UTC</createdTime>
+<generatorID>303351C0-5EC2-65CE-5D3A-28891927F3F9</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>72F927D9-2C63-73B5-AB22-8689F6B3870F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznf" id="B85E3BD3-FEF8-617C-2BFD-A8BE8A7F7725">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 01:18:12 UTC</createdTime>
+<generatorID>F720FC99-3C61-8EA5-1F08-BC0F7F70B588</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>4721DC47-6B4F-EB15-E50A-F9CD8652AFF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brlicag" id="A82ED51B-8579-AAA2-DEE9-7B91A397B969">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 01:21:09 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F766CD0E-1B64-4ABE-ED83-7D5759114745" name="Radnik PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:53:23 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72F927D9-2C63-73B5-AB22-8689F6B3870F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

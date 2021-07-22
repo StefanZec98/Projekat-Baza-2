@@ -1,0 +1,60 @@
+							    "Agencija za nekretnine"
+
+
+
+Svaka filijala agencije "Agencija za nekretnine" ima svoj naziv (NAZF), adresu(ADRF), mesto(IDMF,NAZMF) i drzavu(IDDF,NAZDF) u kojoj se nalazi.
+
+Agencije za nekretnije preko svojih filijala imaju vise klijenata(JMBG,IME,PREZ,EMAIL,VRSTAKLIJ), a ne moraju da imaju ni jednog. Klijenti mogu da 
+potpisu ugovor o posredovanju(DATUG) sa vise filijala, ali ne moraju ni sa jednom.
+Klijent koji je investitor ima svoju jedinstvenu firmu, a svaka firma(IDFIRM,NAZFIRM,ADRFIRM) pripada samo jednom investitoru.
+Svaka filijala nudi vise vrsta nekretnina (OZNKVNE,NAZVNE) ,ali najmanje za jednu. Svaka vrsta nekretnina moze biti vezana za vise filijala, ali najmanje za jednu.
+
+Klijenti koji su potpisali ugovor o posredovanju za odredjenu nekretninu, mogu da kupe nekretninu(OZNKNEK,NAZNEK), preko filijala koje tu vrste 
+nekretnine poseduju i sa kojom su potpisali ugovor.Nekretnina moze biti kupljena od samo jednog klijenta. Za svaku prodatu nekretninu, agencija dobija procenat(PROCENAT) za datu nekretninu.
+
+Svaka kupovina nekretnine odredjena je uplatom(KAPARA,DATUMUPL,OZNKU,KOLICINA,KRAJNJIROKUPL,VRSTAUPL,VALUTA). Uplata moze i ne mora da se vrsti putem kredita(OZNKKRED,DATODK,NAZBANKE).
+U svakoj filijali agencije moze da radi jedan ili vise radnika(MBRRAD,TIPRAD,IMERAD,PREZRAD). Radnik radi iskljucivo u jednoj od filijala. Radnici su podeljeni na agente(BRLICAG) i na racunovodje.
+ U okviru radnika postoji hijerarhija rukovodjenja. Jedan radnik moze da ima nijednog ili jednog rukovodioca, a jedan rukovodilac moze da rukovodi sa vise zaposlenih a ne mora ni sa jednim.
+
+Za svaku uplatu odgovoran je tacno jedan racunovodja. Svaki agent moze da promovise vise nekretnina ali najmanje jednu.
+Svaka nekretnina moze biti promovisana od vise agenata ali najmanje od jednog.
+
+
+NAZAG-jedinstveni naziv agencije
+OZNF-oznaka(jedinstvena sifra) filijale
+NAZF-naziv filijale
+ADRF-adresa filijale
+IDMF-oznaka(jedinstvena sifra) mesta filijale
+NAZMF-naziv mesta u kom se filijala nalazi
+IDDF-oznaka (jedinstvena sifra) za drzavu filijale
+NAZDF-naziv drzave u kojoj se filijala nalazi
+DATUG-datum potpisivanja ugovora o posredovanju izmedju klijenta i filijale
+JMBG-jedinstveni maticni broj gradjana
+IME-ime klijenta
+PREZ-prezime klijenta
+EMAIL-email  klijenta
+VRSTAKLIJ-fleg da li je klijent investitor
+PROCENAT-procenat kupljene nekretnine koji ide agenciji
+IDFFIRM-jedinstvena sifre firme
+NAZFIRM-naziv firme od investitora
+ADRFIRM-adresa firme od investitora
+OZNKVNE-jedinstvena oznaka vrste nekretnine
+NAZVNE-naziv vrste nekretnine
+KAPARA-iznos kapare koju je klijent dao prilikom kupovine
+DATUMUPL-datum uplate
+OZNKU-jedinstvena oznaka uplate
+KOLICINA-kolicina uplate
+KRAJNJIROKUPL-krajnji rok za uplatu
+VRSTAUPL-vrsta uplate(kes ili kredit)
+VALUTA-valuta u kojoj se vrsi uplata
+OZNKKRED-jedinstvena oznaka kredita
+DATODK-datum kada je kredit odobren
+NAZBANKE-naziv banke gde je kredit odobren
+OZNKKRED-jedinstvena oznaka kredita
+MBRRAD-jedinstveni maticni broj radnika
+TIPRAD-tip radnika
+IMERAD-ime radnika
+PREZRAD-prezime radnika
+BRLICAG-broj licence agenta
+OZNKNEK-jedinstvena oznaka nekretnine
+NAZNEK-naziv nekretnine

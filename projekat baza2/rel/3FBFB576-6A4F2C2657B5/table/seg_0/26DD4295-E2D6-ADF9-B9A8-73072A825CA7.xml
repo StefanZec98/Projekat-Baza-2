@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26DD4295-E2D6-ADF9-B9A8-73072A825CA7" name="Ugovor">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>44A80056-35DA-3152-F157-848291215A3C</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datug" id="999D71CE-EBFF-B585-7952-3A0FDCB6B342">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>59059D0A-C255-9C45-80BF-FF22A8DF5FF9</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oznf" id="5179379F-B4BE-8514-0880-4BE20E1F1A0A">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>6A3AF2BB-292A-7692-FACC-F0A78F045434</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8A981BE-01E1-6071-F8F1-1115948B5F8A" referredColumn="014DE972-B1C5-3F9F-028B-DB8E6E1B95FE"/>
+</associations>
+</Column>
+<Column name="jmbg" id="F06BF84E-365A-5D1A-E3D0-3051FE67FD11">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>9D2FDE9A-3DC0-DFBD-6F36-9D301423FD62</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A17DB503-987D-BA06-26A4-C2F5F3FD7FE6" referredColumn="322E5589-1ADC-63F5-F4B2-CE5CBFDE9729"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C93A2B51-57E6-0285-5613-222DB9308487" name="Ugovor_PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>754866E6-9D64-86C0-FE6E-BC9DA3313F3C</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5179379F-B4BE-8514-0880-4BE20E1F1A0A"/>
+<colUsage columnID="F06BF84E-365A-5D1A-E3D0-3051FE67FD11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E50C1303-06ED-2910-79B0-1C42C83F8896" name="Ugovor_Filijala_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>D6BF7D8C-60B9-8637-409A-53E2DA048BE2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5179379F-B4BE-8514-0880-4BE20E1F1A0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A92E94DB-55D2-8826-2AE7-E8758BBBCCD8" name="Ugovor_Klijent_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>F4DA2FD8-F155-D51F-3C95-D721358395EE</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06BF84E-365A-5D1A-E3D0-3051FE67FD11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

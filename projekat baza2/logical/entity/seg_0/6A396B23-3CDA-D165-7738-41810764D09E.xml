@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A396B23-3CDA-D165-7738-41810764D09E" name="Uplata">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:35:14 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kapara" id="D96C3F81-01C4-3D11-8068-AD9CF250DDED">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:35:24 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datumupl" id="9ED732D8-6427-E64F-A637-51571130C688">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:35:49 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valuta" id="F1793978-869C-770B-4B8B-35AAAE8A3843">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:36:10 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznku" id="A73C8175-2667-3C51-AF2B-50DEAB3535F8">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:36:26 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolicina" id="AAAC7679-6F4B-6E7F-4099-2235B68359F4">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:36:46 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="krajnjirokupl" id="EE840A8E-186F-D8C7-C4E8-A5106F7604F4">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:36:57 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznf" id="7A43D2CE-8F52-6A38-5212-B85B073A6164">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:42:54 UTC</createdTime>
+<generatorID>62D81729-E2E8-9ADD-6588-41A1EB277AC2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>207DFD8D-C79F-3104-5E15-7AE8C1491987</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmbg" id="CE1696E7-10B2-B986-B93A-0021F188F0B7">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:42:54 UTC</createdTime>
+<generatorID>62D81729-E2E8-9ADD-6588-41A1EB277AC2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3547E57D-026B-11C9-ADE5-E6A48EABA5D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrsta uplate" id="6DE10A26-2EEA-CF39-0D95-F66B1C1BA07A">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:45:40 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EDD9A08D-3D8C-EE4C-4D74-F8D8E341DCE0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznkkred" id="E69F3024-E199-3B31-55E0-97E49739B444">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:49:57 UTC</createdTime>
+<generatorID>DDC4E858-2064-D68B-0BF4-85B72C6C7DED</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E3FDA790-7549-EC6A-6FA3-98A2683F6C92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbrrad" id="84C01148-E4E1-3D5D-1BAA-C32F9A8192DA">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 01:28:52 UTC</createdTime>
+<generatorID>5F5FAF75-744D-37E6-F238-C62B751E56A8</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>72F927D9-2C63-73B5-AB22-8689F6B3870F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznknek" id="DBE9588E-BE87-269E-0135-99AA5595C1A9">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:08:03 UTC</createdTime>
+<generatorID>62D81729-E2E8-9ADD-6588-41A1EB277AC2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2A5D3541-25F5-9F1D-81C1-78CE48DE94DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80113203-E4C5-5A86-382C-12218E357AF0" name="Uplata PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:36:37 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A73C8175-2667-3C51-AF2B-50DEAB3535F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

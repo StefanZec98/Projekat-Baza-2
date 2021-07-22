@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="598C2660-1A28-3CC1-7F06-A58CA16A7976" name="Nekretnina">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>0AF9D986-8A41-EBCD-F60F-D882DE06393F</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oznknek" id="2E5CA3BB-4C20-AE7C-0576-AAEAC439CC56">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>7217EAB0-D756-301D-66F1-C4E2A90857E5</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naznek" id="ACC043E3-8F69-97C8-3417-4B261104E5AC">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>D5D46C65-624F-A481-52B8-C71E1867D3B7</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oznf" id="097B9335-FA3A-2595-0032-08D03E805F63">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>648892EC-EC65-B054-F9BE-462D5565F491</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64A31233-8632-19B5-66E4-31A5869BDC77" referredColumn="6AC8A97A-0604-E424-5563-0BEEBE06D2C5"/>
+</associations>
+</Column>
+<Column name="oznkvne" id="4C7C5A22-FBB5-34B1-AB04-E2D824765CDA">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>DABF2844-1846-74B2-FBBF-BA12850F7B7A</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64A31233-8632-19B5-66E4-31A5869BDC77" referredColumn="A74F791E-A761-9D50-78D0-08FD06CBC820"/>
+</associations>
+</Column>
+<Column name="procenat" id="73B6692C-24DB-73E8-F2BD-2EADE8079CA4">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-18 08:50:42 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oznf_1" id="B99E988E-D038-435B-38AE-035CFBDD7174">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-18 08:50:58 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62D69AE4-6587-CBA4-E6CC-FA67EDFAF8DA" referredColumn="5179379F-B4BE-8514-0880-4BE20E1F1A0A"/>
+</associations>
+</Column>
+<Column name="jmbg" id="C33D9DA5-BC79-0CF8-2A72-EC239C834F22">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-18 08:50:58 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypeScale>15</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62D69AE4-6587-CBA4-E6CC-FA67EDFAF8DA" referredColumn="F06BF84E-365A-5D1A-E3D0-3051FE67FD11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CBC5895-9592-D20A-4457-6DC2BBBF3FF0" name="Nekretnina_PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>9E5CB0CC-1745-5265-397B-5A8EC0FF2A66</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5CA3BB-4C20-AE7C-0576-AAEAC439CC56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FADD926-C8E5-C94F-F4CF-89CAB0245055" name="Nekretnina_Ponuda_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>91DD57BA-EC92-8796-6816-AB9C44A1E7D0</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="097B9335-FA3A-2595-0032-08D03E805F63"/>
+<colUsage columnID="4C7C5A22-FBB5-34B1-AB04-E2D824765CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7088A8F1-C22C-F185-1046-CBA6583A8622" name="Nekretnina_Ugovor_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-18 08:50:58 UTC</createdTime>
+<generatorID>754866E6-9D64-86C0-FE6E-BC9DA3313F3C</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99E988E-D038-435B-38AE-035CFBDD7174"/>
+<colUsage columnID="C33D9DA5-BC79-0CF8-2A72-EC239C834F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

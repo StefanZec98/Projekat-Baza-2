@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44A80056-35DA-3152-F157-848291215A3C" name="Ugovor">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-16 22:18:40 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datug" id="59059D0A-C255-9C45-80BF-FF22A8DF5FF9">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-16 22:19:49 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznf" id="6A3AF2BB-292A-7692-FACC-F0A78F045434">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:19:30 UTC</createdTime>
+<generatorID>D6BF7D8C-60B9-8637-409A-53E2DA048BE2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>4721DC47-6B4F-EB15-E50A-F9CD8652AFF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmbg" id="9D2FDE9A-3DC0-DFBD-6F36-9D301423FD62">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:20:51 UTC</createdTime>
+<generatorID>F4DA2FD8-F155-D51F-3C95-D721358395EE</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>85CB590E-B895-3F96-F959-D4AE03C09DF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="754866E6-9D64-86C0-FE6E-BC9DA3313F3C" name="Ugovor PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:19:30 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A3AF2BB-292A-7692-FACC-F0A78F045434</attributeRef>
+<attributeRef>9D2FDE9A-3DC0-DFBD-6F36-9D301423FD62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

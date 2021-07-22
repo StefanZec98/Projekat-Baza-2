@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30A7193B-6EAA-264C-451B-906BE3A15517" name="Kupovina">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:27:39 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="procenat" id="780BC52A-FEE7-E7F0-18C0-8AC2E560D926">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:27:49 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznf" id="207DFD8D-C79F-3104-5E15-7AE8C1491987">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:28:56 UTC</createdTime>
+<generatorID>3EB9D41D-C722-B10C-CB6B-75A86019CD94</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>6A3AF2BB-292A-7692-FACC-F0A78F045434</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmbg" id="3547E57D-026B-11C9-ADE5-E6A48EABA5D2">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:28:56 UTC</createdTime>
+<generatorID>3EB9D41D-C722-B10C-CB6B-75A86019CD94</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>9D2FDE9A-3DC0-DFBD-6F36-9D301423FD62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznknek" id="2A5D3541-25F5-9F1D-81C1-78CE48DE94DD">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:34:36 UTC</createdTime>
+<generatorID>FB1E4E02-EA9A-0D07-8FFD-08460B7A5B51</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>7217EAB0-D756-301D-66F1-C4E2A90857E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznku" id="B71EA066-BAE4-2004-6251-982CF7E37C9E">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:42:54 UTC</createdTime>
+<generatorID>62D81729-E2E8-9ADD-6588-41A1EB277AC2</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A73C8175-2667-3C51-AF2B-50DEAB3535F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74CCBC34-8B9A-8BF2-0DF0-E49F8BF960A4" name="Kupovina PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:28:56 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>207DFD8D-C79F-3104-5E15-7AE8C1491987</attributeRef>
+<attributeRef>3547E57D-026B-11C9-ADE5-E6A48EABA5D2</attributeRef>
+<attributeRef>2A5D3541-25F5-9F1D-81C1-78CE48DE94DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

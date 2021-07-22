@@ -1,0 +1,105 @@
+
+--DRZAVA INSERTI
+Insert into drzava (iddf,nazdf) values ('1','Srbija');
+Insert into drzava (iddf,nazdf) values ('2','Nemacka');
+
+--MESTO INSERTI
+Insert into mesto (idmf,nazmf,iddf) values ('1','Novi Sad','1');
+Insert into mesto (idmf,nazmf,iddf) values ('2','Beograd','2');
+
+--FILIJALA INSERTI
+
+Insert into filijala (oznf,nazf,adrf,idmf) values ('1','Filijala Novi Sad','Partizanska','1');
+Insert into filijala (oznf,nazf,adrf,idmf) values ('2','Filijala Beograd','Mihajlova','2');
+Insert into filijala (oznf,nazf,adrf,idmf) values ('3','Filijala Beograd2','Toplice Milana','2');
+
+--KLIJENT INSERTI
+
+Insert into klijent (jmbg,ime,prez,email,vrsta_klijenta) values ('1103998800010','Stefan','Zec','stefanzec@gmail.com','fizicko lice');
+Insert into klijent (jmbg,ime,prez,email,vrsta_klijenta) values ('555555555555','Marko','Popovic','markopop@gmail.com','investitor');
+Insert into klijent (jmbg,ime,prez,email,vrsta_klijenta) values ('66666666666','Jovan','Markovic','markovicj@gmail.com','fizicko lice');
+
+--FIRMA INSERTI
+
+Insert into firma (idfirm,nazfirm,adrfirm,jmbg) values ('1','Mont Gradnja','Skolska','555555555555');
+Insert into firma (idfirm,nazfirm,adrfirm,jmbg) values ('2','Markovic Gradnja','Novosadskog sajma','66666666666');
+
+--UGOVOR INSERTI
+
+
+Insert into ugovor (datug,oznf,jmbg) values (to_date('27-JAN-21','DD-MON-RR'),'1','1103998800010');
+Insert into ugovor (datug,oznf,jmbg) values (to_date('20-JAN-21','DD-MON-RR'),'2','66666666666');
+
+
+
+--VRSTA NEKRETNINE INSERTI
+
+Insert into vrsta_nekretnine (oznkvne,nazvne) values ('1','kuca');
+Insert into vrsta_nekretnine (oznkvne,nazvne) values ('2','stan');
+Insert into vrsta_nekretnine (oznkvne,nazvne) values ('3','plac');
+
+
+
+
+--PONUDA INSERTI
+
+Insert into ponuda (oznf,oznkvne) values ('1','1');
+Insert into ponuda (oznf,oznkvne) values ('1','2');
+Insert into ponuda (oznf,oznkvne) values ('2','3');
+
+
+--NEKRETNINA INSERTI
+
+Insert into nekretnina (oznknek,naznek,oznf,oznkvne,procenat,oznf_1,jmbg) values ('1','dvosoban stan','1','1',3.0,'1', '1103998800010');
+Insert into nekretnina (oznknek,naznek,oznf,oznkvne,procenat,oznf_1,jmbg) values ('2','gradj zemljiste','2','3',3.0,'2', '66666666666');
+
+
+--UPLATA INSERTI
+Insert into uplata (kapara,datumupl,valuta,oznku,kolicina,krajnjirokupl,vrsta_uplate,oznkkred,oznknek,mbrrad)
+values (6000,to_date('27-JAN-21','DD-MON-RR'),'evro','1',100000,to_date('27-JUN-21','DD-MON-RR'),'KREDIT','1','1',88888888888);  
+
+--KREDIT INSERTI
+Insert into kredit (oznkkred,datodk,nazbanke) values ('1',to_date('27-JAN-21','DD-MON-RR'),'Erste banka');   
+
+
+--RADNIK INSERTI
+
+Insert into radnik (mbrrad,tip_radnika,imerad,prezrad,sef,oznf,brlicag) values (22222222222,'AGENT','Marko','Popovic',null,'1','223344');
+Insert into radnik (mbrrad,tip_radnika,imerad,prezrad,sef,oznf,brlicag) values (44444444444,'AGENT','Jovan','Nesic',22222222222,'1','333555');
+Insert into radnik (mbrrad,tip_radnika,imerad,prezrad,sef,oznf,brlicag) values (88888888888,'RACUNOVODJA','Aleksandar','Petrovic',null,'1','0');
+
+--PROMOCIJA INSERTI
+
+Insert into promocija (nekretnina_oznknek,Radnik_mbrrad) values ('1',44444444444);
+Insert into promocija (nekretnina_oznknek,Radnik_mbrrad) values ('2',44444444444);
+
+
+
+
+
+--UPITI SQL
+
+
+
+1. Za svakog radnika prikazati sve informacije o njemu i o uplatama za koje je odgovoran. Ako radnik nema svog sefa prikazati 0. Ukoliko radnik nije zaduzen ni za jednu uplatu ispisati
+"Radnik nije zaduzen za uplatu".
+
+select r.mbrrad,r.tip_radnika,r.imerad,r.prezrad, nvl(r.sef,0) , nvl(u.oznknek,'Radnik nije zaduzen za uplatu')
+from radnik r left outer join uplata u
+on r.mbrrad=u.mbrrad;
+
+
+2.  Za svakog klijenta prikazati nekretnine koje zeli da kupi. Ukoliko klijent ne zeli da kupi ni jednu nekretninu prikazati "Nema nekretnine". Za svaku nekretninu prikazati uplatu
+koja je izvrsena. Ukoliko nije izvrsena uplata za datu nekretninu prikazati "Bez uplate".
+
+select k.ime,k.prez,k.email,k.vrsta_klijenta,nvl(n.naznek, 'Nema nekretnine'),nvl(u.oznku, 'Bez placanja')
+from klijent k left outer join nekretnina n on k.jmbg=n.jmbg left outer join uplata u  on n.oznknek=u.oznknek ;
+
+3.Za svakog klijenta koji su potpisali ugovor sa filijalom i cija se filijala nalazi u Novom Sadu prikazati jmbg,ime,prezime,email,vrstu klijenta, naziv filijale, adresu i mesto filijale . 
+
+select k.jmbg,k.ime,k.prez,k.email,k.vrsta_klijenta,f.nazf,f.adrf,m.nazmf
+from klijent k , ugovor u , filijala f,  mesto m 
+where k.jmbg=u.jmbg and u.oznf=f.oznf and  f.idmf=f.idmf and m.nazmf='Novi Sad';
+
+
+

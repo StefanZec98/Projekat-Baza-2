@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E936119E-CDA5-F843-2A31-79836B692724" name="Ponuda">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>8B28193E-53AF-360F-A46E-081FE0424392</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oznf" id="6AC8A97A-0604-E424-5563-0BEEBE06D2C5">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>7189F6A8-2182-88CE-FEFC-D635E371F9D5</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8559E7EC-7ECA-78B3-079A-5DA7BFB7D78C" referredColumn="014DE972-B1C5-3F9F-028B-DB8E6E1B95FE"/>
+</associations>
+</Column>
+<Column name="oznkvne" id="A74F791E-A761-9D50-78D0-08FD06CBC820">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>C6FAC56F-1EA9-051B-02F6-1A10E7D4D841</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB7A5465-2E5C-6126-E7EC-7FA670D2A491" referredColumn="8F528D8D-C7D1-12F5-B750-9A84FDFB9216"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82B15669-659E-9BB8-302F-ED7864386497" name="Ponuda_PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>7FF88892-AA85-3EA8-D6BA-3D1AB9AC90FC</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC8A97A-0604-E424-5563-0BEEBE06D2C5"/>
+<colUsage columnID="A74F791E-A761-9D50-78D0-08FD06CBC820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD613ABA-3092-09D5-DB1C-4D09ADBC661C" name="Ponuda_Filijala_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>4351923C-48E8-7D1C-B51F-88BAC19FED49</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC8A97A-0604-E424-5563-0BEEBE06D2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72EB1327-C852-6C56-E610-B8B979FC15DB" name="Ponuda_Vrsta_nekretnine_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>DEC3A311-B65B-FCDC-D5AD-F356FC6CF579</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74F791E-A761-9D50-78D0-08FD06CBC820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

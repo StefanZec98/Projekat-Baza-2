@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="663CB48F-E5B4-CF96-86BC-B27A68C5352A" name="Uplata">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>6A396B23-3CDA-D165-7738-41810764D09E</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kapara" id="9918FC10-E15A-A48D-1CC4-BD959EB007D0">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>D96C3F81-01C4-3D11-8068-AD9CF250DDED</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumupl" id="4C98826C-3DB4-E985-857B-3EAA2160B9E5">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>9ED732D8-6427-E64F-A637-51571130C688</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valuta" id="B725A1A1-5ADC-D053-1A03-17EE5A5A075B">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>F1793978-869C-770B-4B8B-35AAAE8A3843</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oznku" id="F4CB5216-C1DF-1537-48EA-FBFC2BDC0D75">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>A73C8175-2667-3C51-AF2B-50DEAB3535F8</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="F59BB65C-2DD5-E3B6-A56E-5CC3D62CE952">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>AAAC7679-6F4B-6E7F-4099-2235B68359F4</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="krajnjirokupl" id="68292FFA-F38A-D3D2-DD6E-B4D8457D2076">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>EE840A8E-186F-D8C7-C4E8-A5106F7604F4</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_uplate" id="8B7CEEEE-80E8-0F37-AE13-4D4FBB1A8C5D">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>6DE10A26-2EEA-CF39-0D95-F66B1C1BA07A</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EDD9A08D-3D8C-EE4C-4D74-F8D8E341DCE0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oznkkred" id="D26ADA21-CA39-A6B7-D0E7-9AEC18294DE5">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>E69F3024-E199-3B31-55E0-97E49739B444</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EDB1AD9-D970-34CE-1825-9AAF54C1A23D" referredColumn="C3729099-45C3-E112-F8EE-4F6D9C667286"/>
+</associations>
+</Column>
+<Column name="oznknek" id="9B74DB71-73D2-82A8-7960-00D2F37EEB67">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:42:10 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29776371-F8A7-6C6A-A066-ED8F04A9EA5F" referredColumn="2E5CA3BB-4C20-AE7C-0576-AAEAC439CC56"/>
+</associations>
+</Column>
+<Column name="mbrrad" id="D3CF6ECB-82C6-B746-2E58-00614EDC0B44">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 22:01:37 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D7B3BD2-30AE-2C92-E243-A1AA40548038" referredColumn="31CEC7CE-E7BC-3F91-6EFF-A7281763D6C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1949A10D-DA80-31D0-822F-B65CDEA23C7C" name="Uplata_PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>80113203-E4C5-5A86-382C-12218E357AF0</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4CB5216-C1DF-1537-48EA-FBFC2BDC0D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3166483-AF45-EBCE-03D0-FCAC21C3E640" name="Uplata_Kredit_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>DDC4E858-2064-D68B-0BF4-85B72C6C7DED</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D26ADA21-CA39-A6B7-D0E7-9AEC18294DE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8EBEAFC-6FC1-D885-95D7-1EC4A2D21045" name="Uplata_Nekretnina_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:42:10 UTC</createdTime>
+<generatorID>9E5CB0CC-1745-5265-397B-5A8EC0FF2A66</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B74DB71-73D2-82A8-7960-00D2F37EEB67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E8A6F05-F649-BE95-4C58-BA21329F92C7" name="Uplata_Radnik_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 22:01:37 UTC</createdTime>
+<generatorID>F766CD0E-1B64-4ABE-ED83-7D5759114745</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CF6ECB-82C6-B746-2E58-00614EDC0B44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

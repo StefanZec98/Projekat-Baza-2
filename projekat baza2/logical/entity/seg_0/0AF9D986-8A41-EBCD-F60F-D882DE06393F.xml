@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AF9D986-8A41-EBCD-F60F-D882DE06393F" name="Nekretnina">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:26:12 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="oznknek" id="7217EAB0-D756-301D-66F1-C4E2A90857E5">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:26:27 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naznek" id="D5D46C65-624F-A481-52B8-C71E1867D3B7">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:26:48 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznf" id="648892EC-EC65-B054-F9BE-462D5565F491">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 20:44:50 UTC</createdTime>
+<generatorID>91DD57BA-EC92-8796-6816-AB9C44A1E7D0</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>7189F6A8-2182-88CE-FEFC-D635E371F9D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oznkvne" id="DABF2844-1846-74B2-FBBF-BA12850F7B7A">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 20:44:50 UTC</createdTime>
+<generatorID>91DD57BA-EC92-8796-6816-AB9C44A1E7D0</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<referedAttribute>C6FAC56F-1EA9-051B-02F6-1A10E7D4D841</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E5CB0CC-1745-5265-397B-5A8EC0FF2A66" name="Nekretnina PK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 00:26:43 UTC</createdTime>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<engineerTo>
+<item key="3FBFB576-992A-1491-9101-6A4F2C2657B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7217EAB0-D756-301D-66F1-C4E2A90857E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

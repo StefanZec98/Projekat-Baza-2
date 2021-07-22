@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EDB1AD9-D970-34CE-1825-9AAF54C1A23D" containerWithKeyObject="663CB48F-E5B4-CF96-86BC-B27A68C5352A" localFKIndex="E3166483-AF45-EBCE-03D0-FCAC21C3E640" name="Uplata_Kredit_FK">
+<createdBy>stefan</createdBy>
+<createdTime>2021-01-17 21:15:04 UTC</createdTime>
+<generatorID>DDC4E858-2064-D68B-0BF4-85B72C6C7DED</generatorID>
+<ownerDesignName>projekat baza2</ownerDesignName>
+<referredTableLongName>Kredit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5183295-B457-FAE2-86A1-AA8D4D41E26A</referredTableID>
+<keyObject>58252B3E-9F7C-962B-17C3-FFE7FE013E4A</keyObject>
+<referredKeyID>58252B3E-9F7C-962B-17C3-FFE7FE013E4A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>oznkkred</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
